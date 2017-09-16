@@ -1,14 +1,15 @@
 {
-  "name": "eightball",
+  "name": "sporadically interrupting magic eightball",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "deadgar",
+  "license": "MIT",
   "dependencies": {
-    "@slack/client": "^3.12.0"
+    "@slack/client": "^3.12.0",
+    "eightball-extensible": "git+https://github.com/gilmae/eightball.git"
   }
 }
